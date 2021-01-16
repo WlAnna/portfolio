@@ -1,0 +1,79 @@
+.vevo-top-container {
+    min-height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:color(dark-blue);
+    @include mobile {
+        min-height: 0;
+        padding: 0 0 6rem 0;
+      }
+}
+
+.vevo-top-wrapper-1 {
+    background-color: color(accent-blue);
+    width: 5vw;
+    min-width: 450px;
+    margin: 130px;
+    position: absolute;
+    box-shadow: inset 0px 0px 40px rgba(0,0,0,.2), 0 0 90px #000;
+}
+
+.vevo-project-header {
+    font-size: 9vw;
+    position: relative;
+    z-index: 170;
+}
+
+.vevo-project-header::before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #fff;
+    opacity: 0.1;
+    position: absolute;
+    left: -160px;
+    top: 50%;
+    z-index: -1;
+}
+
+.vevo-project-header::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #fff;
+    opacity: 0.1;
+    position: absolute;
+    right: -160px;
+    top: 50%;
+    z-index: -1;
+}
+
+.project-header-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 78vh;
+    background-color:color(dark-blue-0);
+}
+
+
+.vevo-top-header {
+    font-size: 6vw;
+    color: #fff;
+    position: relative;
+    left: -11vw;
+    width: 250%;
+    max-width: 10vw;
+    height: 300px;
+}
+
+.vevo-image {
+    background-color:color(dark-blue);
+}
+
+.wave {
+    position: absolute;
+}

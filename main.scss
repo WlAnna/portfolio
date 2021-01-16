@@ -1,0 +1,81 @@
+/*Shared*/
+@import 'css/shared/normalize';
+@import 'css/shared/variables';
+@import 'css/shared/stylesheet';
+/*Components*/
+@import 'css/components/header';
+@import 'css/components/top';
+@import 'css/components/one';
+@import 'css/components/two';
+@import 'css/components/three';
+@import 'css/components/portfolio';
+@import 'css/components/contact';
+@import 'css/components/footer';
+@import 'css/components/mobile';
+@import 'css/components/arrows';
+/*Vevo styles*/
+@import 'css/vevo/top';
+@import 'css/vevo/mockup';
+@import 'css/vevo/header';
+/*@import 'css/vevo/two';*/
+@import 'css/vevo/three';
+@import 'css/vevo/one';
+
+
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Poppins";
+    font-size: 2.1rem;
+    max-width: 100%;
+    margin: 0 auto;
+    color: color( light-gray);
+}
+
+h1 {
+    color: color(dark-blue-lighter-2);
+    font-weight: 700;
+}
+
+.ptb-7 {
+    padding: 7rem 0;
+}
+
+.pt-7 {
+    padding: 7rem 0 0 0;
+}
+
+.pt-12 {
+    padding: 12rem 0 0 0 ;
+}
+
+.pb-4{
+    padding-bottom: 4rem;
+}
+
+.pb-7{
+    padding-bottom: 7rem;
+}
+
+.pb-2 {
+    padding-bottom: 2rem;
+}
+
+.pt-4 {
+    padding-top: 4rem;
+}
+
+a:link {
+    color: color( light-gray);
+  }
+  
+

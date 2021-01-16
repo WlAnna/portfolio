@@ -1,0 +1,62 @@
+.one {
+    background: color(dark-blue);
+    min-height: 110vh;
+    position: relative;
+    @include ipad {
+      padding-bottom: 0rem;
+      min-height: 0vh;
+    }
+    @include mobile {
+      padding-bottom: 0rem;
+    }
+}
+
+.one-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: .2rem;
+    box-shadow: inset 0px 0px 40px rgba(0,0,0,.2), 0 0 90px #000;
+    padding: 8rem 12rem;
+    line-height: 1.8;
+    @include ipad {
+        padding: 8rem 4rem;
+      }
+      @include mobile {
+        padding: 8rem 2.5rem;
+        width: 90%;
+      }
+}
+
+.one-container-title {
+    font-size: 4vw;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    @include mobile {
+      font-size: 5.1rem;
+    }
+}
+
+.one-container-text {
+    text-indent: 0rem;
+    font-size: 2.9rem;
+    color: color(light-gray);
+    text-align: center;
+    @include ipad {
+        font-size: 2.5rem;
+      }
+      @include mobile {
+        font-size: 2.0rem;
+      }
+}
+
+.one-container-text-intro {
+    font-size: 4.9rem;
+    padding-right: 2rem;
+}
+
+

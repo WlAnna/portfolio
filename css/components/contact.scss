@@ -1,0 +1,127 @@
+.contact {
+    background: color(dark-blue);
+    min-height: 110vh;
+    @include mobile {
+        padding-top: 10rem;
+    }
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto 4rem auto;
+    padding: 6rem 2rem .5rem 2rem;
+    box-shadow: inset 0px 0px 40px rgba(0,0,0,.2), 0 0 90px #000;
+    border-radius: .2rem;
+    line-height: 1.8;
+    @include ipad {
+        padding: 8rem 2.5rem;
+        width: 90%;
+      }
+      @include mobile {
+        padding: 7rem 2.5rem 4rem 2.5rem;
+        width: 90%;
+      }
+}
+
+.contact-container-title {
+    font-size: 6rem;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    text-align: center;
+    @include mobile {
+        font-size: 5.1rem;
+      }
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 5rem;
+      @include mobile {
+        padding: 3rem .5rem;
+      }
+}
+
+.contact-form-top {
+    display: flex;
+    padding-bottom: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 96%;
+    @include mobile {
+        flex-direction: column;
+        width: 100%;
+      }
+}
+
+.contact-form-top span {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    @include mobile {
+        width: 96%;
+      }
+}
+
+.form-label {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: color(accent-blue-light);
+    padding-left: .2rem !important;
+}
+
+.form-input {
+    border: none !important; 
+    padding: 3.2rem 0 3.2rem 3vw !important; 
+    background-color: darken(color(dark-blue-0), 2%) !important; 
+    border-radius: 0.2rem;
+    font-size: 1.6rem;
+    color: color(accent-blue-light);
+}
+
+::placeholder {
+    padding: 4rem 0rem;
+    color: lighten(color(dark-blue-0), 19%);
+    filter: invert(20%);
+}
+
+textarea {
+    background-color: darken(color(dark-blue-0), 2%);
+    border: none;
+    border-radius: .2rem;
+    font-size: 1.6rem;
+}
+
+textarea::placeholder{
+    padding-left: 2rem;
+}
+
+input.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: color(dark-blue);
+    width: 190px;
+    height: 55px;
+    font-size: 1.6rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: color(accent-blue-light);
+    cursor: pointer;
+    border: 1px solid color(accent-blue);
+    border-radius: 50px;
+    margin: 3rem 0;
+    text-transform: capitalize;
+}
+
+.btn:hover {
+    background-color: color(dark-blue-lighter-2);
+    transition: all .9s;
+}
+

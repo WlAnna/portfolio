@@ -1,0 +1,127 @@
+.mockup-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1.25fr 3.5fr 1.5fr 1fr;
+    grid-template-rows:  25px 65px 60px 250px ;
+    width: 1000px;
+    grid-gap: 5px;
+    margin: 0 auto;
+    @include mobile {
+        grid-template-columns: 1.5fr 1.25fr 1fr 1.5fr 1fr;
+        grid-template-rows:  25px 45px 60px 100px ;
+        width: 700px;
+    }
+    padding: 0 2rem 4rem 5rem;
+    /*align-items: center;*/
+}
+
+.ipad {
+    grid-column: 1/ span 2;
+    grid-row: -2/ 1;
+    object-fit: cover;
+    max-height: 30px;
+    z-index: 20;
+    padding-right: 100px;
+    @include mobile {
+        grid-column: 1/ span 2;
+    }
+}
+
+.desktop {
+    grid-column: 2/ 5;
+    grid-row: 2/ span 3;
+    object-fit: cover;
+    @include mobile {
+        grid-column: 2/ 5;  
+    }
+} 
+
+.phone {
+    grid-column: 4/5;
+    grid-row: 3/3;
+    object-fit: cover;
+    z-index: 20;
+   @include mobile {
+    margin-left: 50px;
+    grid-column: 4/5;
+    grid-row: 3/3;
+   }
+  
+}
+
+.mockup-container img {
+    border: 1rem solid lighten(color(dark-blue),3%);
+    border-radius: 0.5rem;
+    @include mobile {
+        border: .8rem solid lighten(color(dark-blue),3%);
+       }
+}
+
+.ipad img {
+    width: 355px;
+    height: 470px;
+    object-fit: fill;
+    box-shadow: inset 0px 0px 40px rgba(0,0,0,.2), 0 0 90px #000;
+    @include ipad {
+        width: 284px;
+        height: 376x;
+    }
+
+    @include mobile {
+        width: 177.5px;
+        height: 235px;
+    }
+}
+
+.desktop img {
+    width: 640px;
+    height: 410px;
+    object-fit: cover;
+    box-shadow: inset 0px 0px 40px rgba(0,0,0,.2), 0 0 90px #000;
+    filter: opacity(0.9) drop-shadow(0 0 0 black);
+    @include ipad {
+        width: 512px;
+        height: 328px;
+    }
+
+    @include mobile {
+        width: 320px;
+        height: 205px;
+    }  
+}
+
+.phone img {
+    width: 165px;
+    height: 309px;
+    object-fit: fill;
+    box-shadow: inset 0px 0px 40px rgba(0,0,0,.2), 0 0 90px #000;
+    @include ipad {
+        width: 132px;
+        height: 247.2px;
+    }
+        @include mobile {
+            width: 82.55px;
+            height: 154.5px;
+        }
+}
+
+.blob1 {
+    background-size: cover;
+    animation:  animate 20s linear infinite;
+    z-index: -5;
+}
+
+.vevo-project-home-container {
+    background-color:color(dark-blue);
+    display: flex;
+    padding: 9rem 0 12rem 0;
+    @include mobile {
+        padding: 7rem 0 9rem 0;
+    }
+}
+
+.vevo-project-home {
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: inset 0px 0px 40px rgba(0,0,0,.2), 0 0 90px #000;
+}
+

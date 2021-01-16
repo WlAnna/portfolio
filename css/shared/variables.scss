@@ -1,0 +1,76 @@
+$colors: (
+
+    dark-blue-0: #031d28,
+    dark-blue: lighten(#031d28, 4%),
+    dark-blue-lighter-1: lighten(#031d28, 25%),
+    dark-blue-lighter-2: lighten(#031d28, 60%),
+    dark-blue-lighter-3: #69cbf4,
+    accent-blue: #1800B7,
+    accent-blue-light: lighten(#1800B7, 60%),
+    accent-blue-light-2: lighten(#1800B7, 58%),
+    light-gray: lighten(#b5cfdb, 1%),
+
+
+    main: darken(#1800B7, 5%),
+    primary: #031d28,
+    secondary: #3C2D30,
+   
+    light-gray-2: #e1e1e1,
+    main-light: lighten(#474747, 10%),
+    main-very-light: lighten(#474747, 20%),
+  
+    primary-very-light: lighten(#2D3C39, 38%),
+    primary-light:#818e93,
+    primary-dark:  #040608,
+    tertiary: #22272c
+);
+
+$sizes: (
+    xs-size: 1.2rem,
+    s-size: 1.4rem,
+    m-size: 1.6rem,
+    l-size: 1.9rem,
+    xl-size: 2.9rem,
+    xxl-size: 4.8rem
+);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name)
+};
+
+@function size($size-name) {
+    @return map-get($sizes, $size-name)
+}
+
+
+$mobile: 57rem;
+$ipad-0: 87rem;
+$ipad: 67rem;
+
+$desktop: 45rem;
+
+@mixin mobile {
+    @media (max-width: #{$mobile}) {
+        @content;
+    }
+}
+
+@mixin ipad-0 {
+    @media (max-width: #{$ipad-0}) {
+        @content;
+    }
+}
+
+@mixin ipad {
+    @media (max-width: #{$ipad}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+

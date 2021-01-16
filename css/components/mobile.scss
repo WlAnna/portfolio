@@ -1,0 +1,169 @@
+
+.hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 2rem;
+    right: 1rem;
+    display: none;
+    text-align: center;
+    color: color(accent-blue-light);
+    font-size: 2.1rem;
+    font-weight: 700;
+    background: transparent;
+    overflow: hidden;
+    width: 90px;
+    height: 55px;
+    font-family: 'Poppins';
+    font-weight: 900;
+    cursor: pointer;
+    border: 1px solid color(accent-blue);
+    line-height: 60px;
+    border-radius: 50px;
+    margin: 0 10px;
+      @include ipad {
+        display: block;
+      }
+}
+
+.hamburger-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    transition: top 0.3s;
+}
+
+.hamburger:hover::before{
+    top: 0;
+    border-radius: 0;
+}
+
+.hamburger:before{
+    content: '';
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:color(accent-blue);
+    border-radius: 50% 50% 0 0;
+    z-index: -1;
+    transition: all .9s;
+}
+
+/**/
+
+.close {
+    position: fixed;
+    z-index: 100;
+    top: 2rem;
+    right: 1rem;
+    display: none;
+    text-align: center;
+    color: color(accent-blue-light);
+    font-size: 2.1rem;
+    font-weight: 700;
+    background: transparent;
+    overflow: hidden;
+    width: 90px;
+    height: 55px;
+    font-family: 'Poppins';
+    font-weight: 900;
+    cursor: pointer;
+    border: 1px solid color(accent-blue);
+    line-height: 60px;
+    border-radius: 50px;
+    margin: 0 10px;
+}
+
+
+.close:hover::before{
+    top: 0;
+    border-radius: 0;
+}
+
+.close:before{
+    content: '';
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:color(accent-blue);
+    border-radius: 50% 50% 0 0;
+    z-index: -1;
+    transition: all .9s;
+}
+
+.times-close {
+    font-size: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: .5rem;
+}
+
+/**/
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    right: 0;
+    background-color: color(dark-blue-0);
+    overflow-x: hidden;
+    transition: all .9s;
+    display: flex;
+    justify-content: left;
+}
+  
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0% 0 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 36px;
+    color: color(light-gray);
+    display: block;
+    transition: 0.3s;
+}
+  
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+  
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+  
+.myNav-col {
+      padding: 0rem 0rem 0 0; 
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      text-align: left;
+}
+
+.myNav-col h6 {
+   font-size: 1.8rem;
+   padding-bottom: 1rem;
+   color: color(dark-blue-lighter-2);
+}
+
+.myNav-col a {
+    padding-bottom: 1rem;
+    padding: 0 3rem 0rem 0;
+}
