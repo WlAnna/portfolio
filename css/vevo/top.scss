@@ -23,6 +23,7 @@
     font-size: 9vw;
     position: relative;
     z-index: 170;
+
 }
 
 .vevo-project-header::before {
@@ -36,6 +37,9 @@
     left: -160px;
     top: 50%;
     z-index: -1;
+    @include mobile {
+        display: none;
+      }
 }
 
 .vevo-project-header::after {
@@ -49,6 +53,9 @@
     right: -160px;
     top: 50%;
     z-index: -1;
+    @include mobile {
+        display: none;
+      }
 }
 
 .project-header-wrapper {

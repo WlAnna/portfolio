@@ -11,6 +11,7 @@ footer {
 
 .footer-container-details {
     display: flex;
+    flex-wrap: wrap;
     width: 90%;
     margin: 0 auto;
     justify-content: space-around;
@@ -19,16 +20,25 @@ footer {
 
 .footer-email{
     padding: 0 3rem;
+    @include mobile {
+        padding: 1rem 1.5rem;
+      }
 }
 
 .facebook {
     font-size: 4rem;
     padding: 0 3rem;
     color: color( light-gray);
+    @include mobile {
+        padding: 1rem 1.5rem;
+      }
 }
 
 .instagram {
     font-size: 4rem;
     padding: 0 3rem;
     color: color( light-gray);
+    @include mobile {
+        padding: 1rem 1.5rem;
+      }
 }

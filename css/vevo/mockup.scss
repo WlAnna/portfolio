@@ -10,7 +10,7 @@
         grid-template-rows:  25px 45px 60px 100px ;
         width: 700px;
     }
-    padding: 0 2rem 4rem 5rem;
+    padding: 0 2rem 4rem 0rem;
     /*align-items: center;*/
 }
 
@@ -63,12 +63,12 @@
     box-shadow: inset 0px 0px 40px rgba(0,0,0,.2), 0 0 90px #000;
     @include ipad {
         width: 284px;
-        height: 376x;
+        height: 376px;
     }
 
     @include mobile {
-        width: 177.5px;
-        height: 235px;
+        width: 143.77px;
+        height: 190.35px;
     }
 }
 
@@ -84,8 +84,8 @@
     }
 
     @include mobile {
-        width: 320px;
-        height: 205px;
+        width: 259.2px;
+        height: 166.05px;
     }  
 }
 
@@ -99,8 +99,8 @@
         height: 247.2px;
     }
         @include mobile {
-            width: 82.55px;
-            height: 154.5px;
+            width: 66.86px;
+            height: 125.145px;
         }
 }
 
