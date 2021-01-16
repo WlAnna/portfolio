@@ -23,7 +23,9 @@
     font-size: 9vw;
     position: relative;
     z-index: 170;
-
+    @include mobile {
+        font-size: 4.3rem;
+      }
 }
 
 .vevo-project-header::before {

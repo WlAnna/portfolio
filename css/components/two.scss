@@ -9,10 +9,24 @@
     flex-wrap: wrap;
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 5rem;
     @include ipad {
         width: 100%;
         padding-top:0;
       }
+}
+
+.dev-two-container {
+  line-height: 1.8;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 6rem;
+  @include ipad {
+      width: 100%;
+      padding-top:0;
+    }
 }
 
 .two-container-title-strategy {

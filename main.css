@@ -686,9 +686,25 @@ header {
   flex-wrap: wrap;
   width: 80%;
   margin: 0 auto;
+  padding-bottom: 5rem;
 }
 @media (max-width: 67rem) {
   .two-container {
+    width: 100%;
+    padding-top: 0;
+  }
+}
+
+.dev-two-container {
+  line-height: 1.8;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 6rem;
+}
+@media (max-width: 67rem) {
+  .dev-two-container {
     width: 100%;
     padding-top: 0;
   }
@@ -1396,6 +1412,11 @@ footer {
   font-size: 9vw;
   position: relative;
   z-index: 170;
+}
+@media (max-width: 57rem) {
+  .vevo-project-header {
+    font-size: 4.3rem;
+  }
 }
 
 .vevo-project-header::before {
