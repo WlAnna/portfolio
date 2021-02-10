@@ -345,126 +345,126 @@ template {
 /*# sourceMappingURL=normalize.css.map */
 @font-face {
   font-family: "Poppins";
-  src: url("/fonts/poppins/Poppins-Black.woff2") format("woff2"), url("/fonts/poppins/Poppins-Black.woff") format("woff");
+  src: url("fonts/poppins/Poppins-Black.woff2") format("woff2"), url("fonts/poppins/Poppins-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("/fonts/poppins/Poppins-Bold.woff2") format("woff2"), url("/fonts/poppins/Poppins-Bold.woff") format("woff");
+  src: url("fonts/poppins/Poppins-Bold.woff2") format("woff2"), url("fonts/poppins/Poppins-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("/fonts/poppins/Poppins-BoldItalic.woff2") format("woff2"), url("/fonts/poppins/Poppins-BoldItalic.woff") format("woff");
+  src: url("fonts/poppins/Poppins-BoldItalic.woff2") format("woff2"), url("fonts/poppins/Poppins-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("/fonts/poppins/Poppins-BlackItalic.woff2") format("woff2"), url("/fonts/poppins/Poppins-BlackItalic.woff") format("woff");
+  src: url("fonts/poppins/Poppins-BlackItalic.woff2") format("woff2"), url("fonts/poppins/Poppins-BlackItalic.woff") format("woff");
   font-weight: 900;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("/fonts/poppins/Poppins-ExtraBold.woff2") format("woff2"), url("/fonts/poppins/Poppins-ExtraBold.woff") format("woff");
+  src: url("fonts/poppins/Poppins-ExtraBold.woff2") format("woff2"), url("fonts/poppins/Poppins-ExtraBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("/fonts/poppins/Poppins-ExtraLight.woff2") format("woff2"), url("/fonts/poppins/Poppins-ExtraLight.woff") format("woff");
+  src: url("fonts/poppins/Poppins-ExtraLight.woff2") format("woff2"), url("fonts/poppins/Poppins-ExtraLight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("/fonts/poppins/Poppins-ExtraLightItalic.woff2") format("woff2"), url("/fonts/poppins/Poppins-ExtraLightItalic.woff") format("woff");
+  src: url("fonts/poppins/Poppins-ExtraLightItalic.woff2") format("woff2"), url("fonts/poppins/Poppins-ExtraLightItalic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("/fonts/poppins/Poppins-ExtraBoldItalic.woff2") format("woff2"), url("/fonts/poppins/Poppins-ExtraBoldItalic.woff") format("woff");
+  src: url("fonts/poppins/Poppins-ExtraBoldItalic.woff2") format("woff2"), url("fonts/poppins/Poppins-ExtraBoldItalic.woff") format("woff");
   font-weight: 800;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("/fonts/poppins/Poppins-Light.woff2") format("woff2"), url("/fonts/poppins/Poppins-Light.woff") format("woff");
+  src: url("fonts/poppins/Poppins-Light.woff2") format("woff2"), url("fonts/poppins/Poppins-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("/fonts/poppins/Poppins-Italic.woff2") format("woff2"), url("/fonts/poppins/Poppins-Italic.woff") format("woff");
+  src: url("fonts/poppins/Poppins-Italic.woff2") format("woff2"), url("fonts/poppins/Poppins-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("/fonts/poppins/Poppins-Medium.woff2") format("woff2"), url("/fonts/poppins/Poppins-Medium.woff") format("woff");
+  src: url("fonts/poppins/Poppins-Medium.woff2") format("woff2"), url("fonts/poppins/Poppins-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("/fonts/poppins/Poppins-Regular.woff2") format("woff2"), url("/fonts/poppins/Poppins-Regular.woff") format("woff");
+  src: url("fonts/poppins/Poppins-Regular.woff2") format("woff2"), url("fonts/poppins/Poppins-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("/fonts/poppins/Poppins-MediumItalic.woff2") format("woff2"), url("/fonts/poppins/Poppins-MediumItalic.woff") format("woff");
+  src: url("fonts/poppins/Poppins-MediumItalic.woff2") format("woff2"), url("fonts/poppins/Poppins-MediumItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("/fonts/poppins/Poppins-LightItalic.woff2") format("woff2"), url("/fonts/poppins/Poppins-LightItalic.woff") format("woff");
+  src: url("fonts/poppins/Poppins-LightItalic.woff2") format("woff2"), url("fonts/poppins/Poppins-LightItalic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("/fonts/poppins/Poppins-SemiBoldItalic.woff2") format("woff2"), url("/fonts/poppins/Poppins-SemiBoldItalic.woff") format("woff");
+  src: url("fonts/poppins/Poppins-SemiBoldItalic.woff2") format("woff2"), url("fonts/poppins/Poppins-SemiBoldItalic.woff") format("woff");
   font-weight: 600;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("/fonts/poppins/Poppins-ThinItalic.woff2") format("woff2"), url("/fonts/poppins/Poppins-ThinItalic.woff") format("woff");
+  src: url("fonts/poppins/Poppins-ThinItalic.woff2") format("woff2"), url("fonts/poppins/Poppins-ThinItalic.woff") format("woff");
   font-weight: 100;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("/fonts/poppins/Poppins-Thin.woff2") format("woff2"), url("/fonts/poppins/Poppins-Thin.woff") format("woff");
+  src: url("fonts/poppins/Poppins-Thin.woff2") format("woff2"), url("fonts/poppins/Poppins-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("/fonts/poppins/Poppins-SemiBold.woff2") format("woff2"), url("/fonts/poppins/Poppins-SemiBold.woff") format("woff");
+  src: url("fonts/poppins/Poppins-SemiBold.woff2") format("woff2"), url("fonts/poppins/Poppins-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -523,12 +523,12 @@ header {
   margin: 0 10px;
 }
 
-.header-list li:hover::before {
+.header-list a:hover::before {
   top: 0;
   border-radius: 0;
 }
 
-.header-list li:before {
+.header-list a:before {
   content: "";
   position: absolute;
   top: 60px;
@@ -602,7 +602,7 @@ header {
 }
 .one {
   background: #042b3b;
-  min-height: 110vh;
+  min-height: 88vh;
   position: relative;
 }
 @media (max-width: 67rem) {
@@ -676,8 +676,13 @@ header {
 }
 
 .two {
-  background: #042b3b;
-  min-height: 110vh;
+  background-color: #031d28;
+  min-height: 100vh;
+}
+@media (max-width: 67rem) {
+  .two {
+    min-height: 84vh;
+  }
 }
 
 .two-container {
@@ -692,6 +697,13 @@ header {
   .two-container {
     width: 100%;
     padding-top: 0;
+    padding-bottom: 5rem;
+  }
+}
+
+@media (max-width: 67rem) {
+  .two-container-space {
+    padding-bottom: 15rem;
   }
 }
 
@@ -706,7 +718,8 @@ header {
 @media (max-width: 67rem) {
   .dev-two-container {
     width: 100%;
-    padding-top: 0;
+    padding-top: 40rem;
+    padding-bottom: 0rem;
   }
 }
 
@@ -720,7 +733,8 @@ header {
   .two-container-title-strategy {
     position: relative;
     z-index: 1;
-    padding-top: 6rem;
+    padding-top: 4rem;
+    display: flex;
   }
 }
 @media (max-width: 57rem) {
@@ -737,6 +751,11 @@ header {
   position: absolute;
   box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 0.2), 0 0 90px #000;
 }
+@media (max-width: 67rem) {
+  .two-left-1 {
+    display: none;
+  }
+}
 
 .two-left {
   width: 40%;
@@ -745,17 +764,27 @@ header {
 .two-right {
   width: 60%;
   padding: 5rem;
+  position: relative;
+  z-index: 1;
 }
 @media (max-width: 67rem) {
   .two-right {
     width: 100%;
-    padding: 5rem 1.5rem 38rem 1.5rem;
+    padding: 5rem 1.5rem 2rem 1.5rem;
+  }
+}
+
+@media (max-width: 67rem) {
+  .two-right p {
+    display: flex;
   }
 }
 
 .testing-two-right {
   width: 60%;
   padding: 5rem;
+  position: relative;
+  z-index: 1;
 }
 @media (max-width: 67rem) {
   .testing-two-right {
@@ -765,7 +794,7 @@ header {
 }
 @media (max-width: 57rem) {
   .testing-two-right {
-    padding: 5rem 1rem 8rem 1rem;
+    padding: 0rem 1rem 4rem 1rem;
   }
 }
 
@@ -813,11 +842,10 @@ header {
 }
 
 .two-left-2 {
-  background-color: #1700ad;
+  background-color: #031d28;
   height: 65vh;
   margin: 3vw;
   position: absolute;
-  box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 0.2), 0 0 90px #000;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -825,7 +853,7 @@ header {
 @media (max-width: 57rem) {
   .two-left-2 {
     margin: 0;
-    padding: 15rem 1.5rem 15rem 1.5rem;
+    padding: 0rem 1.5rem 15rem 1.5rem;
   }
 }
 
@@ -840,6 +868,7 @@ header {
     width: 100%;
     padding: 0;
     font-size: 4.3rem;
+    padding-top: 0rem;
   }
 }
 
@@ -850,6 +879,12 @@ header {
   margin: 3vw;
   position: absolute;
   box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 0.2), 0 0 90px #000;
+}
+@media (max-width: 67rem) {
+  .two-left-3 {
+    display: none;
+    padding-bottom: 55rem;
+  }
 }
 
 .two-container-text {
@@ -870,16 +905,32 @@ header {
 
 .two-container-2 {
   padding: 5rem 0rem 60rem 4rem;
+  background-color: #031d28;
 }
 @media (max-width: 67rem) {
   .two-container-2 {
-    padding: 0 0 60rem 1.5rem;
+    padding: 0 0 0rem 1.5rem;
   }
 }
 
 .three {
-  background: #042b3b;
-  min-height: 100vh;
+  background-color: #042b3b;
+  min-height: 60vh;
+}
+@media (max-width: 57rem) {
+  .three {
+    min-height: 50vh;
+  }
+}
+
+.three-1 {
+  background-color: #031d28;
+  min-height: 60vh;
+}
+@media (max-width: 57rem) {
+  .three-1 {
+    min-height: 60vh;
+  }
 }
 
 .three-container {
@@ -930,8 +981,8 @@ header {
 
 .small-blob {
   background-color: #15009e;
-  width: 120px;
-  height: 15vh;
+  width: 130px;
+  height: 13vh;
   margin: 3vw;
   position: relative;
   top: 170px;
@@ -947,12 +998,14 @@ header {
 
 .development-content {
   width: 60%;
-  padding: 5rem;
+  padding: 5rem 5rem 5rem 5rem;
+  position: relative;
+  z-index: 1;
 }
 @media (max-width: 67rem) {
   .development-content {
     width: 100%;
-    padding: 2rem 1.5rem 5rem 1.5rem;
+    padding: 0rem 1.5rem 1rem 1.5rem;
   }
 }
 
@@ -962,7 +1015,7 @@ header {
 }
 @media (max-width: 57rem) {
   .portfolio {
-    min-height: 80vh;
+    min-height: 70vh;
   }
 }
 
@@ -984,23 +1037,22 @@ header {
   text-align: center;
   font-size: 6rem;
   margin: 0;
-  padding: 9rem 0 9rem 0;
+  padding: 5rem 0 12rem 0;
   line-height: 1.4;
 }
 @media (max-width: 57rem) {
   .portfolio-title {
-    padding: 10rem 0 4rem 0;
+    padding: 0rem 0 6rem 0;
     font-size: 4.3rem;
   }
 }
 
 .contact {
   background: #042b3b;
-  min-height: 110vh;
 }
 @media (max-width: 57rem) {
   .contact {
-    padding-top: 10rem;
+    padding-top: 0rem;
   }
 }
 
@@ -1009,7 +1061,7 @@ header {
   justify-content: center;
   flex-direction: column;
   width: 70%;
-  margin: 0 auto 4rem auto;
+  margin: 10rem auto 10rem auto;
   padding: 6rem 2rem 0.5rem 2rem;
   box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 0.2), 0 0 90px #000;
   border-radius: 0.2rem;
@@ -1023,8 +1075,9 @@ header {
 }
 @media (max-width: 57rem) {
   .contact-container {
-    padding: 7rem 2.5rem 4rem 2.5rem;
+    padding: 8rem 2.5rem 4rem 2.5rem;
     width: 90%;
+    margin: 4rem auto 4rem auto;
   }
 }
 
@@ -1364,11 +1417,11 @@ footer {
   background: #042b3b;
   display: flex;
   justify-content: center;
-  padding: 6rem 0 0 0;
+  padding: 5rem 0 5rem 0;
 }
 @media (max-width: 57rem) {
   .top-arrow-portfolio {
-    padding: 0;
+    padding: 0 0 10rem 0;
   }
 }
 
@@ -1376,12 +1429,22 @@ footer {
   width: 20px;
   box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.6), 50px 20px 80px rgba(0, 0, 0, 0.3);
   position: absolute;
-  z-index: 20px;
+  z-index: 10;
 }
 
 .top-arrow-down {
   width: 20px;
   box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1), 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+.spacer {
+  margin: 0rem 0 10rem 0;
+  background: #042b3b;
+}
+@media (max-width: 57rem) {
+  .spacer {
+    margin: 0;
+  }
 }
 
 /*Vevo styles*/
@@ -1479,6 +1542,11 @@ footer {
 
 .wave {
   position: absolute;
+}
+
+.wave-1 {
+  position: absolute;
+  z-index: 0;
 }
 
 .mockup-container {

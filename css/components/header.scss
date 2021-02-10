@@ -50,12 +50,12 @@ header {
     margin: 0 10px;
 }
 
-.header-list li:hover::before{
+.header-list a:hover::before{
     top: 0;
     border-radius: 0;
 }
 
-.header-list li:before{
+.header-list a:before{
     content: '';
     position: absolute;
     top: 60px;

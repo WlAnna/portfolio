@@ -1,7 +1,8 @@
 .one {
     background: color(dark-blue);
-    min-height: 110vh;
+    min-height: 88vh;
     position: relative;
+ 
     @include ipad {
       padding-bottom: 0rem;
       min-height: 0vh;
@@ -22,6 +23,7 @@
     box-shadow: inset 0px 0px 40px rgba(0,0,0,.2), 0 0 90px #000;
     padding: 8rem 12rem;
     line-height: 1.8;
+
     @include ipad {
         padding: 8rem 4rem;
       }
