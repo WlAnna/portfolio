@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+ 
+    <!--Header-->
+    <header class="vevo-header" id="header">
+        <div class="header-details " id="header-details">
+            <a href="index.html"  class="header-logo">Hi</a>
+            <div class="header-list">
+                <a href="index.html" >Home</a>
+                <a href="index.html#about" >About</a>
+                <a href="index.html#portfolio" >Portfolio</a>
+                <a href="index.html#contact" >Contact</a>
+            </div>   
+        </div>     
+    </header>
+
+    <!--Mobile Navigation-->
+    <div class="hamburger-wrapper" id="hamburger-wrapper">
+        <span class="hamburger " id="hamburger"><i class="fas fa-bars "></i></span>
+    </div>
+
+    <div id="myNav" class="overlay ">
+        <a  class="closebtn close" ><i class="fas fa-times times-close"></i></a>
+        <div class="overlay-content">
+                <div class="myNav-col">
+                    <h6>Intro</h6>
+                    <a href="index.html" >Home</a>
+                    <a href="index.html#about" id="mobile-about">About</a>
+                </div>
+                <div class="myNav-col">
+                    <h6>Work</h6>
+                    <a href="index.html#portfolio" id="mobile-portfolio" >Portfolio</a>
+                </div>
+                <div class="myNav-col">
+                    <h6>Contact</h6>
+                    <a href="index.html#contact" id="mobile-contact">Let's talk</a>
+                </div>
+        </div>
+    </div>
+
+    <!--Section Top--> 
+    <section class="project-header-wrapper ">
+        <h1 class="vevo-project-header">Vevo.</h1>
+    </section>
+
+    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#031D28" fill-opacity="0.95" d="M0,128L80,106.7C160,85,320,43,480,74.7C640,107,800,213,960,240C1120,267,1280,213,1360,186.7L1440,160L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
+    </svg>
+
+    <!--Section Mobile-->
+    <section class="vevo-top">
+        <div class="vevo-top-container">
+            <div class="mockup-container">
+                <div class="ipad" >
+                    <img src="images/vevo-ipad.png"  alt="">
+                </div>
+                <div class="desktop" >
+                    <img src="images/vevo_top.jpg"   alt="">
+                </div>
+                <div class="phone">
+                    <img src="images/vevo-phone.png"   alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section One-->
+    <section class="vevo-one ">
+        <div class="one-container ">
+            <h1 class="vevo-container-title pb-2">Deliver New Quality.</h1>
+            <p class="one-container-text">This Project was inspired by my previous work in construction where the quality must be undisputed. Achieving beautiful products that achieve desired needs is the result of hard work and consequence. This is what I put into my development craft. Simplicity supported by utility pleases the most. </p>
+        </div>
+    </section>
+
+    <!--Section Two-->
+    <section class="details ">
+        <div class="vevo-three-container">    
+            <div class="three-left">
+                <div class="color-palet-wrapper">
+                    <div class="color-palet">
+                        <div class="color-palet-1"></div>
+                        <div class="color-palet-2"></div>
+                        <div class="color-palet-3"></div>
+                        <div class="color-palet-4"></div>
+                        <div class="color-palet-5"></div>
+                        <div class="color-palet-6"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="vevo-three-right ">
+                <h1 class="vevo-container-title pb-2">Color pallet</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nesciunt quo libero accusamus consectetur soluta fugiat delectus possimus, quos accusantium?</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Section Three-->
+    <section class="details ">
+        <div class="vevo-three-container">    
+            <div class="vevo-three-right ">
+                <h1 class="vevo-container-title pb-2">Technologies</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nesciunt quo libero accusamus consectetur soluta fugiat delectus possimus, quos accusantium?</p>
+            </div>
+            <div class="three-left">
+                <div class="color-palet-wrapper">
+                    <div class="color-palet">
+                        <i class="fas fa-laptop-code laptop-code-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Vevo Home Page-->
+    <section>
+        <div class="vevo-project-home-container">
+            <img class="vevo-project-home" src="images/vevo-home.png"   alt="">
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-container-details">
+                <a href="mailto:contact@webdesign.com" class="footer-email">contact@webdesign.com</a>
+                <a href="#" class="fab fa-instagram instagram"></a>
+                <a href="#" class="fab fa-facebook facebook"></a>
+            </div>
+        </div>
+    </footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="ityped/index.js"></script>
+    <script>
+        console.log('blue')
+
+
+        //Mobile Navigation
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+            document.querySelector('.hamburger-wrapper').addEventListener('click', openNav)
+            document.querySelector('.closebtn').addEventListener('click', closeNav)
+            document.querySelector('#mobile-about').addEventListener('click', closeNav)
+            document.querySelector('#mobile-portfolio').addEventListener('click', closeNav)
+            document.querySelector('#mobile-contact').addEventListener('click', closeNav)
+    </script>
+
+</body>
+</html>
