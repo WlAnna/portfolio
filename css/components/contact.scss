@@ -86,8 +86,14 @@
     color: color(accent-blue-light);
 }
 
+#fname:focus, #email, #subject {
+    box-shadow: none;
+    outline: none;
+    
+}
+
 ::placeholder {
-    padding: 4rem 0rem;
+  
     color: lighten(color(dark-blue-0), 19%);
     filter: invert(20%);
 }
@@ -97,11 +103,11 @@ textarea {
     border: none;
     border-radius: .2rem;
     font-size: 1.6rem;
+    color: white;
+    padding-left: 4rem;
+    padding-top: 4rem;
 }
 
-textarea::placeholder{
-    padding-left: 2rem;
-}
 
 input.btn {
     display: flex;
@@ -125,4 +131,6 @@ input.btn {
     background-color: color(dark-blue-lighter-2);
     transition: all .9s;
 }
+
+
 

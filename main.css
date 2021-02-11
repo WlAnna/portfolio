@@ -714,12 +714,14 @@ header {
   width: 80%;
   margin: 0 auto;
   padding-bottom: 6rem;
+  padding-left: 3rem;
 }
 @media (max-width: 67rem) {
   .dev-two-container {
     width: 100%;
     padding-top: 40rem;
     padding-bottom: 0rem;
+    padding: 35rem 2rem 0rem 2rem;
   }
 }
 
@@ -794,7 +796,7 @@ header {
 }
 @media (max-width: 57rem) {
   .testing-two-right {
-    padding: 0rem 1rem 4rem 1rem;
+    padding: 0rem 3rem 4rem 3rem;
   }
 }
 
@@ -1147,8 +1149,12 @@ header {
   color: #edeaff;
 }
 
+#fname:focus, #email, #subject {
+  box-shadow: none;
+  outline: none;
+}
+
 ::placeholder {
-  padding: 4rem 0rem;
   color: #0a5e82;
   filter: invert(20%);
 }
@@ -1158,10 +1164,9 @@ textarea {
   border: none;
   border-radius: 0.2rem;
   font-size: 1.6rem;
-}
-
-textarea::placeholder {
-  padding-left: 2rem;
+  color: white;
+  padding-left: 4rem;
+  padding-top: 4rem;
 }
 
 input.btn {
@@ -1404,7 +1409,7 @@ footer {
 
 .myNav-col a {
   padding-bottom: 1rem;
-  padding: 0 3rem 0rem 0;
+  padding: 0 3rem 2rem 0;
 }
 
 .top-arrow {
@@ -1443,7 +1448,7 @@ footer {
 }
 @media (max-width: 57rem) {
   .spacer {
-    margin: 0;
+    margin: 0rem 0 5rem 0;
   }
 }
 
