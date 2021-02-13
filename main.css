@@ -950,7 +950,7 @@ header {
 }
 
 .three-left-code {
-  font-size: 10rem;
+  font-size: 6rem;
   color: #edeaff;
   position: relative;
   left: 0vw;
@@ -1459,11 +1459,12 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: #042b3b;
+  padding-left: 11rem;
 }
 @media (max-width: 57rem) {
   .vevo-top-container {
     min-height: 0;
-    padding: 0 0 6rem 0;
+    padding: 0 0 6rem 6rem;
   }
 }
 
@@ -1477,7 +1478,7 @@ footer {
 }
 
 .vevo-project-header {
-  font-size: 9vw;
+  font-size: 7vw;
   position: relative;
   z-index: 170;
 }
@@ -1804,27 +1805,27 @@ footer {
   border: solid 1px #3e494f;
 }
 
-.color-palet-1 {
+.color-palet-1-vevo {
   background-color: #002A53;
 }
 
-.color-palet-2 {
+.color-palet-2-vevo {
   background-color: #B5BAC7;
 }
 
-.color-palet-3 {
+.color-palet-3-vevo {
   background-color: #2980B9;
 }
 
-.color-palet-4 {
+.color-palet-4-vevo {
   background-color: #fff;
 }
 
-.color-palet-5 {
+.color-palet-5-vevo {
   background-color: #FBF3DE;
 }
 
-.color-palet-6 {
+.color-palet-6-vevo {
   background-color: #F0B733;
 }
 
@@ -1860,28 +1861,53 @@ footer {
 }
 
 /*Book-app styles*/
-.color-palet-1 {
+.color-palet-1-book-app {
   background-color: #0F1C24;
 }
 
-.color-palet-2 {
+.color-palet-2-book-app {
   background-color: #6BC4FF;
 }
 
-.color-palet-3 {
+.color-palet-3-book-app {
   background-color: #99D6FF;
 }
 
-.color-palet-4 {
+.color-palet-4-book-app {
   background-color: #ECF4F9;
 }
 
-.color-palet-5 {
+.color-palet-5-book-app {
   background-color: #FFCBA8;
 }
 
-.color-palet-6 {
+.color-palet-6-book-app {
   background-color: #FFAC75;
+}
+
+/*Check-it-app styles*/
+.color-palet-1-check-it-app {
+  background-color: #ebf6fd;
+}
+
+.color-palet-2-check-it-app {
+  background-color: #1b9ee0;
+}
+
+.color-palet-3-check-it-app {
+  background-color: #188EC9;
+}
+
+.color-palet-4-check-it-app {
+  background-color: #1BE0C0;
+}
+
+.color-palet-5-check-it-app {
+  background-color: #C01BE0;
+}
+
+.color-palet-6-check-it-app {
+  background-color: #fff;
 }
 
 /* General Styles */
