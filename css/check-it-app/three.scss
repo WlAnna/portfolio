@@ -23,3 +23,15 @@
     background-color:  #fff; 
 }
 
+
+.technologies-link a {
+    padding-left: 1rem;
+    padding-right: .1rem;
+    text-decoration: underline;
+    color: color( light-gray);
+}
+
+.technologies-link a:first-child {
+    padding-left: 0;
+}
+

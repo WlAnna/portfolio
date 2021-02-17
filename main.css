@@ -1221,17 +1221,6 @@ footer {
   }
 }
 
-.facebook {
-  font-size: 4rem;
-  padding: 0 3rem;
-  color: #b8d1dd;
-}
-@media (max-width: 57rem) {
-  .facebook {
-    padding: 1rem 1.5rem;
-  }
-}
-
 .instagram {
   font-size: 4rem;
   padding: 0 3rem;
@@ -1625,7 +1614,7 @@ footer {
 .ipad img {
   width: 355px;
   height: 470px;
-  object-fit: fill;
+  object-fit: cover;
   box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 0.2), 0 0 90px #000;
 }
 @media (max-width: 67rem) {
@@ -1664,7 +1653,7 @@ footer {
 .phone img {
   width: 165px;
   height: 309px;
-  object-fit: fill;
+  object-fit: cover;
   box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 0.2), 0 0 90px #000;
 }
 @media (max-width: 67rem) {
@@ -1851,12 +1840,11 @@ footer {
   margin: 0;
   padding: 0;
   line-height: 1.4;
-  text-align: center;
+  text-align: left;
 }
 @media (max-width: 57rem) {
   .vevo-container-title {
     font-size: 4.3rem;
-    text-align: left;
   }
 }
 
@@ -1908,6 +1896,53 @@ footer {
 
 .color-palet-6-check-it-app {
   background-color: #fff;
+}
+
+.technologies-link a {
+  padding-left: 1rem;
+  padding-right: 0.1rem;
+  text-decoration: underline;
+  color: #b8d1dd;
+}
+
+.technologies-link a:first-child {
+  padding-left: 0;
+}
+
+/*Bella-store styles*/
+.color-palet-1-bella-store {
+  background-color: #474747;
+}
+
+.color-palet-2-bella-store {
+  background-color: #7a7a7a;
+}
+
+.color-palet-3-bella-store {
+  background-color: #e1e1e1;
+}
+
+.color-palet-4-bella-store {
+  background-color: #7e9e97;
+}
+
+.color-palet-5-bella-store {
+  background-color: #86a49e;
+}
+
+.color-palet-6-bella-store {
+  background-color: #f2f5f5;
+}
+
+.technologies-link a {
+  padding-left: 1rem;
+  padding-right: 0.1rem;
+  text-decoration: underline;
+  color: #b8d1dd;
+}
+
+.technologies-link a:first-child {
+  padding-left: 0;
 }
 
 /* General Styles */

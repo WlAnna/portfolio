@@ -59,7 +59,7 @@
 .ipad img {
     width: 355px;
     height: 470px;
-    object-fit: fill;
+    object-fit: cover;
     box-shadow: inset 0px 0px 40px rgba(0,0,0,.2), 0 0 90px #000;
     @include ipad {
         width: 284px;
@@ -92,7 +92,7 @@
 .phone img {
     width: 165px;
     height: 309px;
-    object-fit: fill;
+    object-fit: cover;
     box-shadow: inset 0px 0px 40px rgba(0,0,0,.2), 0 0 90px #000;
     @include ipad {
         width: 132px;

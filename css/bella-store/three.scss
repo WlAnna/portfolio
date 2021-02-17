@@ -1,0 +1,37 @@
+
+.color-palet-1-bella-store {
+    background-color: #474747;
+}
+
+.color-palet-2-bella-store {
+    background-color: lighten(#474747, 20%);
+}
+
+.color-palet-3-bella-store{
+    background-color: #e1e1e1;
+}
+
+.color-palet-4-bella-store {
+    background-color: lighten(#2D3C39, 35%);
+}
+
+.color-palet-5-bella-store {
+    background-color: lighten(#2D3C39, 38%);
+}
+
+.color-palet-6-bella-store {
+    background-color:  lighten(#2D3C39, 75%);
+}
+
+
+.technologies-link a {
+    padding-left: 1rem;
+    padding-right: .1rem;
+    text-decoration: underline;
+    color: color( light-gray);
+}
+
+.technologies-link a:first-child {
+    padding-left: 0;
+}
+
